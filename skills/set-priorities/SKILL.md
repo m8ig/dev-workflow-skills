@@ -1,6 +1,6 @@
 ---
 name: set priorities straight
-description: Read this first before any development task. Defines the priority hierarchy of rules: skills override defaults, AGENTS.md overrides skills, user instructions override everything.
+description: "Read this first before any development task. Defines the priority hierarchy of rules: skills override defaults, AGENTS.md overrides skills, user instructions override everything."
 ---
 
 All rules and requirements are set on different levels. The skills that you can use to create or generate basic things:
