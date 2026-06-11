@@ -3,6 +3,13 @@ name: git commits and push workflow
 description: "Use when committing or pushing changes in any project. Covers Conventional Commits format, optional Jira ticket suffix enforced by commitlint, branch naming, and PR creation flow."
 ---
 
+## ⚠️ STOP. Before any git add / commit / push
+
+1. Check the current branch — if on `master` or `develop`, create a new branch first.
+2. Never push directly to `master`. Always branch → commit → push → PR.
+
+---
+
 ## Commit message format
 
 Commits follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification:
