@@ -3,6 +3,10 @@ name: create a task
 description: Use when creating a task or bug report in any issue tracker. Covers description structure, screenshot requirements, and environment defaults.
 ---
 
+## Determining the issue-tracker project
+
+When the tracker is Jira, determine the project key from the repo's `commitlint.config.js` — look at `parserPreset.parserOpts.issuePrefixes`. The prefix is the Jira project key. Example: `issuePrefixes: ['BAZA-']` → project key `BAZA`.
+
 ## Rules for creating a task
 
 - **No file paths or technical internals in the description.** Don't mention file names, component names, function names, or implementation details — these belong in code comments or PR descriptions, not in the ticket.
